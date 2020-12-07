@@ -80,16 +80,16 @@ if __name__=="__main__":
     my_filter = Filter( user_max = 10, techniques=["traditional", "audio"] )         
     user_data_vec = my_filter.filter( users_data )
     users_df = user_data_vec_to_data_frame( user_data_vec ) # users_df : DataFrame (seaborn)
-    
+
     ###### Load models ##########
     model_vec = [  Random_Model(), CK_Model(), RW_Model(), RWCK_Model() ] 
-    
+
     print( "----------------------------------------------------------" )
     print( "\nlist of users id: ", users_df['user_id'].unique() )
     print( "list of models: ", [model.name for model in model_vec ] )
     print( "\n--------------------------------------------------------" )
-    
-    
+
+
 
     #######  Show an overview of the data (1.a) ##########
     #overview = User_Overview()
@@ -102,7 +102,7 @@ if __name__=="__main__":
     # # you will have some warnings, but it is not a problem  #
     ###########################################################
     #explorer = Empirical_Panel()
-    #explorer.subwin_height = 750   
+    #explorer.subwin_height = 750
     #explorer.set_users_df( users_df )
     #explorer.show()
 
@@ -113,19 +113,19 @@ if __name__=="__main__":
     ##############################################################
     ######           Model fitting  (TODO 3.c)          ##########
     ##############################################################
-    # model_fitting  = Model_Fitting()
-    # model_fitting.debug = True
-    # model_fitting.command_ids   = range(0,14)    # 14 commands
-    # model_fitting.user_data_vec = user_data_vec
-    # model_fitting.model_vec     = model_vec
-    # model_fitting.parameters = Parameters_Loader.load('./optimal_parameters_copy/')
-    # fitting_res = model_fitting.run()            # res: list < Model_Result > ( see util.py )
-    # # # display the results
-    # fitting_visu = Model_Fitting_Visualisation()
-    # fitting_visu.update_canvas( fitting_res )
-    
-    
-    
+    model_fitting  = Model_Fitting()
+    model_fitting.debug = True
+    model_fitting.command_ids   = range(0,14)    # 14 commands
+    model_fitting.user_data_vec = user_data_vec
+    model_fitting.model_vec     = model_vec
+    model_fitting.parameters = Parameters_Loader.load('./optimal_parameters_copy/')
+    fitting_res = model_fitting.run()            # res: list < Model_Result > ( see util.py )
+    # display the results
+    fitting_visu = Model_Fitting_Visualisation()
+    fitting_visu.update_canvas( fitting_res )
+
+
+
 
     ###############################################################
     #######  Optimize parameters (TODO 4.b) ##########
