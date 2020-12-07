@@ -1,0 +1,6 @@
+model,user_id,technique,parameter,value,freedom,log_likelihood,n_observations,n_parameters,BIC
+random,10,audio,HOTKEY_PROB,0.5457,1,-720.07,720,1,1446.7192512120102
+random,10,audio,MENU_TIME,2.0,0,-720.07,720,1,1446.7192512120102
+random,10,audio,HOTKEY_TIME,0.9,0,-720.07,720,1,1446.7192512120102
+random,10,audio,LEARNING_COST,1.8,0,-720.07,720,1,1446.7192512120102
+random,10,audio,ERROR_COST,3.0,0,-720.07,720,1,1446.7192512120102

@@ -1,0 +1,6 @@
+model,user_id,technique,parameter,value,freedom,log_likelihood,n_observations,n_parameters,BIC
+random,3,traditional,HOTKEY_PROB,0.0,1,-499.07,720,1,1004.7192512120101
+random,3,traditional,MENU_TIME,2.0,0,-499.07,720,1,1004.7192512120101
+random,3,traditional,HOTKEY_TIME,0.9,0,-499.07,720,1,1004.7192512120101
+random,3,traditional,LEARNING_COST,1.8,0,-499.07,720,1,1004.7192512120101
+random,3,traditional,ERROR_COST,3.0,0,-499.07,720,1,1004.7192512120101

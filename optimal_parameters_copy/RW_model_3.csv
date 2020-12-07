@@ -1,0 +1,7 @@
+model,user_id,technique,parameter,value,freedom,log_likelihood,n_observations,n_parameters,BIC
+RW,3,traditional,ALPHA_RW,0.54779,1,-37.38,720,2,1514.76
+RW,3,traditional,BETA_RW,14.0,1,-37.38,720,2,1514.76
+RW,3,traditional,MENU_TIME,2.0,0,-37.38,720,2,1514.76
+RW,3,traditional,HOTKEY_TIME,0.9,0,-37.38,720,2,1514.76
+RW,3,traditional,LEARNING_COST,1.8,0,-37.38,720,2,1514.76
+RW,3,traditional,ERROR_COST,3.0,0,-37.38,720,2,1514.76

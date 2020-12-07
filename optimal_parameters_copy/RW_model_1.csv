@@ -1,0 +1,7 @@
+model,user_id,technique,parameter,value,freedom,log_likelihood,n_observations,n_parameters,BIC
+RW,1,audio,ALPHA_RW,0.33532,1,-421.58,720,2,2283.16
+RW,1,audio,BETA_RW,8.48665,1,-421.58,720,2,2283.16
+RW,1,audio,MENU_TIME,2.0,0,-421.58,720,2,2283.16
+RW,1,audio,HOTKEY_TIME,0.9,0,-421.58,720,2,2283.16
+RW,1,audio,LEARNING_COST,1.8,0,-421.58,720,2,2283.16
+RW,1,audio,ERROR_COST,3.0,0,-421.58,720,2,2283.16

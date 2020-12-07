@@ -1,0 +1,7 @@
+model,user_id,technique,parameter,value,freedom,log_likelihood,n_observations,n_parameters,BIC
+CK,6,traditional,ALPHA_CK,1.0,1,-15.38,720,2,43.918502424020204
+CK,6,traditional,BETA_CK,14.0,1,-15.38,720,2,43.918502424020204
+CK,6,traditional,MENU_TIME,2.0,0,-15.38,720,2,43.918502424020204
+CK,6,traditional,HOTKEY_TIME,0.9,0,-15.38,720,2,43.918502424020204
+CK,6,traditional,LEARNING_COST,1.8,0,-15.38,720,2,43.918502424020204
+CK,6,traditional,ERROR_COST,3.0,0,-15.38,720,2,43.918502424020204
